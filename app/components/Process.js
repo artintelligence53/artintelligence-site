@@ -2,27 +2,27 @@ export default function Process() {
   const steps = [
     {
       number: '01',
-      title: 'Free Consultation',
-      description: 'We analyze your workflows, identify automation opportunities, and show you exactly what\'s possible.',
-      duration: '30-45 min'
+      title: 'Kostenloses Erstgespräch',
+      description: 'Wir definieren gemeinsam Ziele, Abläufe, Systeme und Konditionen. Individueller Scope.',
+      duration: '30-45 Min'
     },
     {
       number: '02',
-      title: 'Implementation & Testing',
-      description: 'We build your AI systems and test them with real scenarios from your business.',
-      duration: '1-2 weeks'
+      title: 'Umsetzung & Tests',
+      description: 'Wir bauen die Lösung und testen sie mit realen Beispielen aus Ihrem Betrieb.',
+      duration: '1-2 Wochen'
     },
     {
       number: '03',
-      title: 'Go-Live & Onboarding',
-      description: 'Quick training session, then your AI systems start working immediately.',
-      duration: '1 day'
+      title: 'Go-Live & Übergabe',
+      description: 'Kurze Einweisung, danach läuft die Entlastung im Alltag sofort.',
+      duration: '1 Tag'
     },
     {
       number: '04',
-      title: 'Payment & Support',
-      description: 'Pay via secure Stripe link. Work begins immediately with ongoing support.',
-      duration: 'Ongoing'
+      title: 'Zahlung & Start',
+      description: 'Sie erhalten einen Stripe-Link. Sobald die Zahlung eingegangen ist, beginnt der Auftrag.',
+      duration: 'Laufend'
     }
   ]
 
@@ -31,10 +31,10 @@ export default function Process() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Simple, <span className="text-gradient">Transparent Process</span>
+            <span className="text-gradient">So läuft es ab</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            From first call to automated operations in weeks, not months
+            Vom Erstgespräch zur automatisierten Entlastung in Wochen, nicht Monaten
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export default function Process() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <span className="text-lg">
-              Average time to full automation: <strong className="text-gold-400">14 days</strong>
+              Durchschnittliche Dauer bis zur vollen Automatisierung: <strong className="text-gold-400">14 Tage</strong>
             </span>
           </div>
         </div>

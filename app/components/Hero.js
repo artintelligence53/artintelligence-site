@@ -19,14 +19,14 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in-up">
-          Stop Losing Time on <br />
-          <span className="text-gradient">Manual Work.</span><br />
-          Let AI Handle It.
+          Arbeitszeit zurückgewinnen.<br />
+          <span className="text-gradient">Antwortzeiten verkürzen.</span><br />
+          Keine Anfrage verpassen.
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-          ARTintelligence implements AI systems that automate your operations,
-          capture every lead, and save <span className="text-gold-400 font-semibold">hours every day</span>.
+          ARTintelligence hilft kleinen und mittelgrossen Unternehmen mit smarter KI,
+          Routinearbeit zu automatisieren und <span className="text-gold-400 font-semibold">täglich Stunden zu sparen</span>.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -34,28 +34,28 @@ export default function Hero() {
             onClick={scrollToContact}
             className="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-black font-bold px-8 py-4 rounded-xl transition-all hover:scale-105 hover:shadow-2xl hover:shadow-gold-500/50 text-lg"
           >
-            Book a Free Consultation
+            Kostenloses Erstgespräch buchen
           </button>
           <button
             onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
             className="glass-card hover:bg-white/10 text-white font-semibold px-8 py-4 rounded-xl transition-all hover:scale-105 text-lg"
           >
-            See How It Works
+            Leistungen ansehen
           </button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
           <div className="glass-card p-6 hover:bg-white/10 transition-all">
             <div className="text-4xl font-bold text-gold-400 mb-2">24/7</div>
-            <div className="text-gray-300">Always Available</div>
+            <div className="text-gray-300">Immer verfügbar</div>
           </div>
           <div className="glass-card p-6 hover:bg-white/10 transition-all">
             <div className="text-4xl font-bold text-gold-400 mb-2">5+</div>
-            <div className="text-gray-300">AI Solutions</div>
+            <div className="text-gray-300">KI-Lösungen</div>
           </div>
           <div className="glass-card p-6 hover:bg-white/10 transition-all">
-            <div className="text-4xl font-bold text-gold-400 mb-2">30 Days</div>
-            <div className="text-gray-300">Money-Back Guarantee</div>
+            <div className="text-4xl font-bold text-gold-400 mb-2">30 Tage</div>
+            <div className="text-gray-300">Geld-zurück-Garantie</div>
           </div>
         </div>
       </div>

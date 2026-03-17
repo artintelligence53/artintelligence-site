@@ -6,10 +6,10 @@ export default function Guarantee() {
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-gradient">Zero Risk</span> Guarantee
+            <span className="text-gradient">Null Risiko</span> / Geld-zurück-Garantie
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            We're so confident in our systems that we back them with a 30-day money-back guarantee
+            Wir sind so überzeugt von unseren Systemen, dass wir eine 30-Tage-Geld-zurück-Garantie bieten
           </p>
         </div>
 
@@ -22,9 +22,9 @@ export default function Guarantee() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-3xl font-bold mb-4">100% Money-Back Guarantee</h3>
+                <h3 className="text-3xl font-bold mb-4">100% Geld-zurück-Garantie</h3>
                 <p className="text-xl text-gray-300 mb-6">
-                  If we don't deliver the agreed functionality to your satisfaction within 30 days of go-live, we refund <strong className="text-gold-400">100% of your setup fee</strong>. No questions asked.
+                  Wenn wir innerhalb der ersten 30 Tage nach Go-Live die vereinbarten Basisfunktionen nicht zu Ihrer Zufriedenheit liefern: <strong className="text-gold-400">100% Setup zurück</strong>. Ohne Wenn und Aber.
                 </p>
               </div>
             </div>
@@ -35,8 +35,8 @@ export default function Guarantee() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <div className="font-semibold mb-1">30-Day Window</div>
-                  <div className="text-sm text-gray-400">Full coverage from go-live</div>
+                  <div className="font-semibold mb-1">30-Tage-Fenster</div>
+                  <div className="text-sm text-gray-400">Volle Abdeckung ab Go-Live</div>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -44,8 +44,8 @@ export default function Guarantee() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <div className="font-semibold mb-1">100% Refund</div>
-                  <div className="text-sm text-gray-400">No partial refunds, full amount back</div>
+                  <div className="font-semibold mb-1">100% Rückerstattung</div>
+                  <div className="text-sm text-gray-400">Kein Teilbetrag, voller Betrag zurück</div>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -53,8 +53,8 @@ export default function Guarantee() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <div className="font-semibold mb-1">No Hidden Terms</div>
-                  <div className="text-sm text-gray-400">Simple, straightforward guarantee</div>
+                  <div className="font-semibold mb-1">Keine versteckten Bedingungen</div>
+                  <div className="text-sm text-gray-400">Einfach, unkompliziert</div>
                 </div>
               </div>
             </div>
@@ -66,14 +66,14 @@ export default function Guarantee() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-4">Data Security Guaranteed</h3>
+            <h3 className="text-2xl font-bold mb-4">Datenschutz garantiert</h3>
             <p className="text-gray-300 mb-6">
-              Access only after approval. Secure processing and transmission. NDA & AVV available.
+              Zugriff nur nach Freigabe. Sichere Verarbeitung/Übertragung. NDA & AVV auf Wunsch.
             </p>
             <ul className="space-y-3">
-              <li className="text-sm text-gray-400 pb-3 border-b border-white/10">GDPR Compliant</li>
-              <li className="text-sm text-gray-400 pb-3 border-b border-white/10">Swiss Standards</li>
-              <li className="text-sm text-gray-400">End-to-End Encryption</li>
+              <li className="text-sm text-gray-400 pb-3 border-b border-white/10">DSGVO-konform</li>
+              <li className="text-sm text-gray-400 pb-3 border-b border-white/10">Schweizer Standards</li>
+              <li className="text-sm text-gray-400">Ende-zu-Ende-Verschlüsselung</li>
             </ul>
           </div>
         </div>
@@ -81,10 +81,10 @@ export default function Guarantee() {
         <div className="text-center">
           <div className="inline-block glass-card p-8 max-w-3xl">
             <p className="text-2xl font-semibold mb-2">
-              <span className="text-gradient">Works with your existing systems</span>
+              <span className="text-gradient">Pragmatisch in Ihre bestehenden Abläufe</span>
             </p>
             <p className="text-gray-400">
-              No disruption, no data migration nightmares. We integrate with what you already use.
+              Keine Disruption, keine Datenmigrations-Alpträume. Wir integrieren in das, was Sie bereits nutzen.
             </p>
           </div>
         </div>

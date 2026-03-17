@@ -1,17 +1,17 @@
 export default function Services() {
   const services = [
     {
-      title: 'AI Office Assistant',
-      subtitle: 'Your All-in-One AI Employee',
-      description: 'Automatically handles emails, schedules appointments, creates documents, and manages follow-ups 24/7.',
+      title: 'AI Office Assistent',
+      subtitle: 'Intelligenter All-in-One-Mitarbeiter',
+      description: 'Die KI übernimmt Routinearbeit, damit Sie täglich mehrere Stunden Verwaltungszeit zurückgewinnen.',
       features: [
-        'Reads and responds to emails automatically',
-        'Schedules appointments in your calendar',
-        'Creates offers and invoices from templates',
-        'Never misses a follow-up or reminder',
-        'Works via email, WhatsApp, or website chat'
+        'Liest und beantwortet E-Mails automatisch nach Ihren Vorlagen',
+        'Plant Termine direkt im Kalender inkl. Bestätigungen',
+        'Schreibt Angebote und Rechnungen nach Vorlage zur Freigabe',
+        'Erinnert an offene Aufgaben und Follow-ups',
+        'Arbeitet optional über WhatsApp oder Website-Chat'
       ],
-      roi: 'Save 3-5 hours per day',
+      roi: 'Mehrere Stunden täglich zurückgewinnen',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -19,17 +19,17 @@ export default function Services() {
       )
     },
     {
-      title: 'AI Phone Assistant',
-      subtitle: '24/7 Call Handling',
-      description: 'Never miss another call. Answers professionally in multiple languages, books appointments, and qualifies leads.',
+      title: 'Telefon-Assistent',
+      subtitle: 'Vollautomatischer Anrufempfang 24/7',
+      description: 'Kein Anruf geht verloren. Nimmt Gespräche professionell entgegen, bucht Termine und qualifiziert Leads.',
       features: [
-        'Answers all calls 24/7 automatically',
-        'Speaks naturally (German/English/French)',
-        'Books appointments directly',
-        'Creates call summaries for your team',
-        'Prioritizes urgent calls'
+        'Nimmt alle Telefonanrufe rund um die Uhr entgegen',
+        'Spricht natürlich (Deutsch/Englisch/Französisch)',
+        'Bucht Termine direkt in den Kalender',
+        'Erstellt automatisch Zusammenfassung fürs Team',
+        'Informiert Sie nur bei wichtigen Anrufen'
       ],
-      roi: 'Capture 100% of inbound leads',
+      roi: 'Kein verpasster Lead mehr',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -38,16 +38,16 @@ export default function Services() {
     },
     {
       title: 'AI Sales Chatbot',
-      subtitle: 'Your 24/7 Website Sales Agent',
-      description: 'Converts website visitors into qualified leads by answering questions instantly and guiding them through the sales process.',
+      subtitle: 'Ihr 24/7-Verkäufer auf der Website',
+      description: 'Begrüsst Besucher, beantwortet Fragen in Sekunden und führt Interessenten zur Anfrage.',
       features: [
-        'Answers questions instantly',
-        'Recommends products/services intelligently',
-        'Qualifies and structures lead data',
-        'Multilingual support',
-        'Optional booking & payment integration'
+        'Beantwortet Fragen sofort (Leistungen, Ablauf, Verfügbarkeit)',
+        'Empfiehlt passende Produkte oder Dienstleistungen',
+        'Qualifiziert Anfragen und sammelt wichtigste Infos',
+        'Mehrsprachig möglich',
+        'Optional: Buchungen oder Zahlungen integrierbar'
       ],
-      roi: 'Increase conversion by 40%+',
+      roi: 'Strukturierte Leads statt Chat-Chaos',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
@@ -55,17 +55,17 @@ export default function Services() {
       )
     },
     {
-      title: 'AI Data Cleanup',
-      subtitle: 'Automated Data Quality System',
-      description: 'Maintains pristine CRM and database quality automatically, eliminating duplicates and ensuring data consistency.',
+      title: 'AI Data Cleanup & Quality',
+      subtitle: 'Dauerhaft saubere Daten',
+      description: 'Automatisierte Datenpflege, damit CRM, Marketing und Administration verlässlich laufen.',
       features: [
-        'Automatically standardizes data formats',
-        'Detects and merges duplicates',
-        'Reviews exceptions for your approval',
-        'Reduces errors in reporting and campaigns',
-        'Maintains high data quality continuously'
+        'Führt Daten zusammen, standardisiert Formate',
+        'Erkennt Dubletten und führt Datensätze zusammen',
+        'Stellt Sonderfälle in Review-Liste bereit',
+        'Reduziert Doppelarbeit und Folgefehler',
+        'Hält Datenqualität dauerhaft hoch'
       ],
-      roi: 'Reduce data errors by 90%',
+      roi: 'Saubere, konsistente Datenbasis',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
@@ -73,17 +73,17 @@ export default function Services() {
       )
     },
     {
-      title: 'AI Dynamic Offers',
-      subtitle: 'Real-Time Personalization Engine',
-      description: 'Generates personalized offers automatically based on customer data, behavior, and budget parameters.',
+      title: 'AI Angebots-Individualisierung',
+      subtitle: 'Dynamische Preis- & Leistungslogik',
+      description: 'Erstellt automatisch individuelle Angebote basierend auf Kundendaten, Verhalten oder Budget.',
       features: [
-        'Calculates prices automatically',
-        'Adjusts service packages dynamically',
-        'Detects budget and suggests options',
-        'Creates interactive offer pages',
-        'Analyzes acceptance probability'
+        'Berechnet Preise automatisch anhand Parameter',
+        'Passt Leistungsumfang dynamisch an',
+        'Erkennt Budgetrahmen und schlägt Varianten vor',
+        'Generiert interaktive Angebotsseiten statt PDF',
+        'Analysiert Annahmewahrscheinlichkeit'
       ],
-      roi: 'Close deals 2x faster',
+      roi: 'Massgeschneiderte Angebote ohne manuelle Kalkulation',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
@@ -97,11 +97,11 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-gradient">AI-Powered Solutions</span><br />
-            That Deliver Real ROI
+            <span className="text-gradient">Unsere Leistungen</span><br />
+            Ganz einfach erklärt
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Choose individual services or implement a complete automation ecosystem
+            Einzelne Services oder komplettes Automatisierungs-Ökosystem
           </p>
         </div>
 
