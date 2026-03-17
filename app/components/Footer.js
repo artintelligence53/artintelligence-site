@@ -9,23 +9,23 @@ export default function Footer() {
               <span className="text-white">intelligence</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Enterprise AI automation for small and medium businesses. Save time, capture leads, grow revenue.
+              KI-Automatisierung für kleine und mittelgrosse Unternehmen. Zeit sparen, Leads erfassen, Umsatz steigern.
             </p>
           </div>
 
           <div>
-            <h4 className="text-white font-semibold mb-4">Services</h4>
+            <h4 className="text-white font-semibold mb-4">Leistungen</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>AI Office Assistant</li>
-              <li>AI Phone Assistant</li>
+              <li>AI Office Assistent</li>
+              <li>Telefon-Assistent</li>
               <li>AI Sales Chatbot</li>
               <li>AI Data Cleanup</li>
-              <li>AI Dynamic Offers</li>
+              <li>AI Angebots-Individualisierung</li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white font-semibold mb-4">Contact</h4>
+            <h4 className="text-white font-semibold mb-4">Kontakt</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
                 <a href="mailto:paul@artintelligence.ch" className="hover:text-gold-400 transition-colors">
@@ -37,14 +37,14 @@ export default function Footer() {
                   +41 76 240 48 24
                 </a>
               </li>
-              <li>Interlaken, Switzerland</li>
+              <li>Interlaken, Schweiz</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} ARTintelligence. All rights reserved.
+            &copy; {new Date().getFullYear()} ARTintelligence. Alle Rechte vorbehalten.
           </p>
           <p className="text-gray-500 text-sm">
             Paul Breitenstein & Max Gureck

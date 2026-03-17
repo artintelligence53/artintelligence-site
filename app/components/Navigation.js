@@ -38,19 +38,19 @@ export default function Navigation() {
 
         <div className={`${mobileOpen ? 'flex' : 'hidden'} lg:flex flex-col lg:flex-row absolute lg:relative top-full left-0 right-0 lg:top-0 bg-black lg:bg-transparent border-b lg:border-b-0 border-white/10 lg:border-0 gap-2 lg:gap-8 p-6 lg:p-0 items-stretch lg:items-center`}>
           <button onClick={() => scrollTo('services')} className="text-gray-300 hover:text-gold-400 transition-colors text-left lg:text-center py-2 lg:py-0">
-            Services
+            Leistungen
           </button>
           <button onClick={() => scrollTo('process')} className="text-gray-300 hover:text-gold-400 transition-colors text-left lg:text-center py-2 lg:py-0">
-            Process
+            Ablauf
           </button>
           <button onClick={() => scrollTo('guarantee')} className="text-gray-300 hover:text-gold-400 transition-colors text-left lg:text-center py-2 lg:py-0">
-            Guarantee
+            Garantie
           </button>
           <button
             onClick={() => scrollTo('contact')}
             className="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-black font-semibold px-6 py-2 rounded-lg transition-all hover:scale-105 hover:shadow-lg hover:shadow-gold-500/50"
           >
-            Get Started
+            Termin buchen
           </button>
         </div>
       </div>

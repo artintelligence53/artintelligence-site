@@ -6,14 +6,14 @@ export default function Solution() {
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block px-4 py-2 bg-gold-500/10 border border-gold-500/20 rounded-full text-gold-400 text-sm font-medium mb-6 backdrop-blur-sm">
-            The Solution
+            Die Lösung
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            One <span className="text-gradient">Integrated AI System</span><br />
-            That Handles Everything
+            Ein <span className="text-gradient">integriertes KI-System</span><br />
+            das alles übernimmt
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Stop juggling multiple tools. Get a complete AI-powered operations system that works together seamlessly.
+            Schluss mit Tool-Chaos. Erhalten Sie ein komplettes KI-gestütztes System, das nahtlos zusammenarbeitet.
           </p>
         </div>
 
@@ -24,9 +24,9 @@ export default function Solution() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-4">Automate</h3>
+            <h3 className="text-2xl font-bold mb-4">Automatisieren</h3>
             <p className="text-gray-400">
-              Let AI handle emails, calls, data entry, and scheduling automatically
+              KI übernimmt E-Mails, Anrufe, Dateneingabe und Terminplanung automatisch
             </p>
           </div>
 
@@ -37,9 +37,9 @@ export default function Solution() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-4">Capture</h3>
+            <h3 className="text-2xl font-bold mb-4">Erfassen</h3>
             <p className="text-gray-400">
-              Never miss a lead again with 24/7 intelligent response systems
+              Verpassen Sie nie wieder einen Lead dank intelligenten 24/7-Response-Systemen
             </p>
           </div>
 
@@ -49,9 +49,9 @@ export default function Solution() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-4">Scale</h3>
+            <h3 className="text-2xl font-bold mb-4">Skalieren</h3>
             <p className="text-gray-400">
-              Grow your business without hiring more admin staff
+              Wachsen Sie ohne zusätzliches Verwaltungspersonal einzustellen
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Solution() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <span className="text-lg">
-              Works with your existing systems - no disruption required
+              Funktioniert mit Ihren bestehenden Systemen - keine Disruption erforderlich
             </span>
           </div>
         </div>

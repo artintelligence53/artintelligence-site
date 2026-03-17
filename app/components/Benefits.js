@@ -1,10 +1,10 @@
 export default function Benefits() {
   const benefits = [
     {
-      title: 'Reclaim Your Time',
-      description: 'Get back 3-5 hours every day. Focus on strategy and growth instead of admin work.',
+      title: 'Zeit zurückgewinnen',
+      description: 'Gewinnen Sie täglich mehrere Stunden zurück. Fokus auf Strategie statt Administration.',
       metric: '40%',
-      metricLabel: 'Time Saved',
+      metricLabel: 'Zeit gespart',
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -12,10 +12,10 @@ export default function Benefits() {
       )
     },
     {
-      title: 'Lightning-Fast Responses',
-      description: 'Answer customers in seconds, not hours. Beat competitors who make clients wait.',
+      title: 'Blitzschnelle Antworten',
+      description: 'Antworten Sie Kunden in Sekunden, nicht Stunden. Schlagen Sie Konkurrenten, die warten lassen.',
       metric: '95%',
-      metricLabel: 'Faster Response',
+      metricLabel: 'Schnellere Antwort',
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -23,10 +23,10 @@ export default function Benefits() {
       )
     },
     {
-      title: 'Increase Revenue',
-      description: 'Capture every lead, close deals faster, and serve more customers without hiring.',
+      title: 'Umsatz steigern',
+      description: 'Erfassen Sie jeden Lead, schliessen Sie Deals schneller und bedienen Sie mehr Kunden.',
       metric: '+30%',
-      metricLabel: 'Revenue Growth',
+      metricLabel: 'Umsatzwachstum',
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
@@ -34,10 +34,10 @@ export default function Benefits() {
       )
     },
     {
-      title: 'Zero Manual Work',
-      description: 'Eliminate repetitive tasks completely. Let your team do what only humans can do.',
+      title: 'Null manuelle Arbeit',
+      description: 'Eliminieren Sie repetitive Aufgaben komplett. Ihr Team macht nur noch, was Menschen brauchen.',
       metric: '90%',
-      metricLabel: 'Tasks Automated',
+      metricLabel: 'Aufgaben automatisiert',
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -53,10 +53,10 @@ export default function Benefits() {
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Transform Your <span className="text-gradient">Business Operations</span>
+            Transformieren Sie Ihre <span className="text-gradient">Geschäftsabläufe</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Real results from companies that stopped doing manual work
+            Echte Resultate von Unternehmen, die manuelle Arbeit gestoppt haben
           </p>
         </div>
 
@@ -87,10 +87,10 @@ export default function Benefits() {
         <div className="mt-16 text-center">
           <div className="inline-block glass-card p-8 max-w-2xl">
             <p className="text-2xl font-semibold mb-4">
-              <span className="text-gradient">Your investment pays for itself</span> in weeks, not months
+              <span className="text-gradient">Ihre Investition zahlt sich aus</span> in Wochen, nicht Monaten
             </p>
             <p className="text-gray-400">
-              Most clients save more in manual labor costs than they spend on automation within 30 days
+              Die meisten Kunden sparen mehr durch wegfallende manuelle Arbeit als sie für Automatisierung ausgeben - innerhalb von 30 Tagen
             </p>
           </div>
         </div>
